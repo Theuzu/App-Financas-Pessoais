@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Platform } from "react-native";
 
 import { useNavigation } from "@react-navigation/native";
@@ -28,13 +28,13 @@ export default function SignIn() {
 
             <AreaInput>
                 <Input
-                placeholder="seu Email"
+                placeholder="Seu Email"
                 />
             </AreaInput>
 
             <AreaInput>
                 <Input
-                placeholder="seu Email"
+                placeholder="Sua Senha"
                 />
             </AreaInput>
 
