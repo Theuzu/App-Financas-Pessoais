@@ -1,6 +1,10 @@
-import styled from "styled-components";
+import styled from "styled-components/native";
+import { FlatList } from "react-native";
 
-export const Background = styled.SafeAreaView`
-    flex: 1;
-    background-color: aliceblue;
+export const Background = styled.View`
+    justify-content: center;
+`;
+
+export const ListBalance = styled(FlatList)`
+    height: 200px;
 `;

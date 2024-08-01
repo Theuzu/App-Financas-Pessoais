@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { Text } from "react-native";
 
 export const Container = styled.SafeAreaView`
     padding-top: 10px;
