@@ -27,7 +27,7 @@ export default function BalanceItem({ data }){
     return(
         <Container bg={labelName.color}>
             <Label>{labelName.label}</Label>
-            <Balance>R$ {data.Saldo}</Balance>
+            <Balance>R$ {data.saldo}</Balance>
         </Container>
     )
 }
